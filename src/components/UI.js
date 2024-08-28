@@ -20,11 +20,15 @@ export default function UI() {
 
 
   useEffect(()=>{
-  const interval=setInterval(()=>{
+    if(eng){
+      const interval=setInterval(()=>{
       setflipCard(true);
-  },4000)
+      },3000)
     return ()=>clearInterval(interval)
-  },[flipCard])
+
+    }
+ 
+  },[flipCard,eng])
 
   return (
     <>

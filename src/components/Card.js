@@ -11,7 +11,7 @@ return (
     <>
         <div className="container">
             <div className="row">
-                <div className="col d-flex align-items-center justify-content-center mt-5">
+                <div className="col d-flex align-items-center justify-content-center mt-1">
                     <div className="card cardStyle " style={{width:"700px",height:"400px",borderRadius:"35px", boxShadow:"10px 10px 5px 5px #939185"}}>
                         <div className="innerData mx-auto my-5 p-5 position-relative w-75">
                             <div className="language">

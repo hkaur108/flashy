@@ -10,11 +10,8 @@ export default function Buttons(props) {
     const wordinfo= useContext(wordContext);
     const [words,setwords,correctClicked,setcorrectClicked,wrongClicked,setwrongClicked,flipCard,setflipCard,count,setcount] =wordinfo;
     
-
-    console.log(words.length-1,"word length")
     const handleNext=()=>{
         if(count < words.length-1){
-            console.log(count,"count")
             setcount(count=>count+1)
             return
         }
